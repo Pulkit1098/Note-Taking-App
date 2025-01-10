@@ -1,0 +1,14 @@
+GET http://localhost:5000/api/notes/fetchallnotes
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjc0ODk3YTM0YzY1Y2NiMzQ4N2IyZjE4In0sImlhdCI6MTczMjg1NzcyMn0.-xxV1t0XsiYltpXoUfr3abXIOnVn_G6T-H3BxJbZjq8
+
+### For POST or PUT requests with body
+POST  http://localhost:5000/api/auth/createuser
+Content-Type: application/json
+auth-token:  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjc0ZDQ2OTMzZDNiNTgzNzFlMGI2OTljIn0sImlhdCI6MTczMzExNzU4N30.8A9cCEWxjH7UyngwI1BOKg6fgA7VC3seZElRnr6Os5o
+"
+{
+  "name": "update",
+  "email": "pulkit1013@gmail.com",
+  "password": "Pulkit8998"
+}
